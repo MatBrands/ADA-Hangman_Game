@@ -18,7 +18,6 @@ A especificação completa do projeto pode ser encontrada em: [Projeto Extra](ht
 - Tecnologias
 - Instalação
 - Organização do projeto
-- Contribuições
 
 ## Integrantes
 Projeto desenvolvido pelo Dev:
@@ -35,11 +34,11 @@ Projeto desenvolvido pelo Dev:
 ## Tecnologias
 
 - python=3.9.15
-- json
 - os
 - sys
 - termcolor
 - pynput
+- unidecode
 
 
 ## Instalação
@@ -98,8 +97,22 @@ deactivate
 
 ## Organização do projeto
 ```sh
-...
+├── ADA-Hangman_Game
+│   ├── hangman_game
+│   │   ├── __init__.py
+│   │   ├── controller
+│   │   │   ├── arts.txt
+│   │   │   └── words.txt
+│   │   ├── model
+│   │   │   └── Words.py
+│   │   └── view
+│   │       ├── Game.py
+│   │       ├── interface.py
+│   │       ├── Menu.py
+│   ├── License
+│   ├── Readme.md
+│   └── utils
+│       ├── environment.yml
+│       ├── Projeto Extra.ipynb
+│       └── requirements.txt
 ```
-
-
-## Contribuições
