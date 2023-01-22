@@ -1,4 +1,5 @@
 from random import randint
+from unidecode import unidecode
 
 class Words:
     def __init__(self, path = './controller/words.txt'):
@@ -7,7 +8,7 @@ class Words:
     def set_word(self, word) -> None:
         path = self.path
         with open(path, 'a', encoding='utf-8') as file:
-            file.write(word + '\n')
+            file.write(unidecode(word) + '\n')
         return
     
     def get_words(self) -> list:
