@@ -53,6 +53,8 @@ class Game:
             if erro == 7 or ''.join(hidden_word) == word:
                 break
             
+        os.system("clear")
+        
         if word == ''.join(hidden_word):
             print(f"Parabéns !\nVocê acertou a palavra: {word} com {erro} tentativa(s)")
             return True
