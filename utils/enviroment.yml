@@ -1,0 +1,8 @@
+name: hangman_game_venv
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - termcolor
+  - pynput
