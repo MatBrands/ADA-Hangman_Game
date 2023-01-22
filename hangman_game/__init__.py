@@ -20,6 +20,8 @@ if __name__ == '__main__':
                     hangmanGame.victory += 1
                 else:
                     hangmanGame.defeat += 1
+                os.system("clear")
+                input()
         elif option == 1:
             words_menu(wordsClass)
         elif option == 2:
