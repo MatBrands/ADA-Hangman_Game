@@ -34,7 +34,7 @@ Projeto desenvolvido pelo Dev:
 
 ## Tecnologias
 
-- python=3.10.9
+- python=3.9.15
 - json
 - os
 - sys
