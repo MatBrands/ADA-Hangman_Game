@@ -2,6 +2,7 @@ import os
 import sys
 sys.path.insert(1, '../')
 from model.Words import *
+from unidecode import unidecode
 
 def hangman_art(path = './controller/arts.txt') -> list:
     with open(path, 'r', encoding='utf-8') as file:
@@ -33,7 +34,7 @@ class Game:
             print()
             
             key = input('Digite uma letra ou a palavra: ')
-            
+            key = unidecode(key)
             if key not in word:
                 if len(key) == 1:
                     input("Letra incorreta !\n")

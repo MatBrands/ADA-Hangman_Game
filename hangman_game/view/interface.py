@@ -1,5 +1,4 @@
 import os
-from unidecode import unidecode
 from model.Words import *
 from view.Menu import *
 
@@ -26,7 +25,6 @@ def words_menu(wordsClass: Words):
             input()
         elif option == 1:
             word = input("Digite a palavra para registrar: ")
-            word = unidecode(word)
             wordsClass.set_word(word.lower())
             input("Palavra registrada com sucesso !\n")
             
