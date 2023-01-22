@@ -24,22 +24,28 @@ def words_menu(wordsClass: Words):
                 
             input()
         elif option == 1:
-            word = input("Digite a palvra para registrar: ")
-            wordsClass.set_word(word)
+            word = input("Digite a palavra para registrar: ")
+            wordsClass.set_word(word.lower())
             input("Palavra registrada com sucesso !\n")
             
         elif option == 2:
             words = wordsClass.get_words()
+            words.append('Retornar')
             alter_option = start_menu('', words)
-            
+            if len(words)-1 == alter_option:
+                continue
             new_word = input("Digite a nova palavra: ")
             if wordsClass.replace_word(words[alter_option], new_word):
                 input("Alteração realizada com sucesso !\n")
             else:
                 input("Erro !")
+                
         elif option == 3:
             words = wordsClass.get_words()
+            words.append('Retornar')
             alter_option = start_menu('', words)
+            if len(words)-1 == alter_option:
+                continue
             
             if wordsClass.remove_word(words[alter_option]):
                 input("Exclusão realizada com sucesso !\n")
