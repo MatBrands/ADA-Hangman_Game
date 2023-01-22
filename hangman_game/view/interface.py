@@ -38,7 +38,7 @@ def words_menu(wordsClass: Words):
             if wordsClass.replace_word(words[alter_option], new_word):
                 input("Alteração realizada com sucesso !\n")
             else:
-                input("Erro !")
+                input("Erro !\n")
                 
         elif option == 3:
             words = wordsClass.get_words()
