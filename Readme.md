@@ -109,10 +109,10 @@ deactivate
 │   │       ├── Game.py
 │   │       ├── interface.py
 │   │       ├── Menu.py
+│   ├── utils
+│   │   ├── environment.yml
+│   │   ├── Projeto Extra.ipynb
+│   │   └── requirements.txt
 │   ├── License
-│   ├── Readme.md
-│   └── utils
-│       ├── environment.yml
-│       ├── Projeto Extra.ipynb
-│       └── requirements.txt
+│   └── Readme.md
 ```
