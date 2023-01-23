@@ -71,11 +71,6 @@ conda deactivate
 ### Requirements
 Pode-se utilizar o arquivo requirements.txt para criar o ambiente virtual.
 
-- Navegar até a pasta de destino
-```sh
-cd utils
-```
-
 - Criar ambiente virtual
 ```sh
 python -m venv hangman_game_venv
@@ -84,6 +79,11 @@ python -m venv hangman_game_venv
 - Ativar
 ```sh
 source ./hangman_game_venv/bin/activate
+```
+
+- Navegar até a pasta de destino
+```sh
+cd utils
 ```
 
 - Instalar dependências
@@ -113,8 +113,9 @@ deactivate
 │   │       ├── Menu.py
 │   ├── utils
 │   │   ├── environment.yml
-│   │   ├── Projeto Extra.ipynb
+│   │   ├── Projeto Extra.md
 │   │   └── requirements.txt
 │   ├── License
+│   ├── Readme_Eng
 │   └── Readme.md
 ```
