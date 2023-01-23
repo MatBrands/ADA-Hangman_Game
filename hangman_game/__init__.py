@@ -1,6 +1,6 @@
 import os
-from view.Menu import *
-from view.Game import *
+from model.Menu import *
+from model.Game import *
 from view.interface import *
 
 if __name__ == '__main__':

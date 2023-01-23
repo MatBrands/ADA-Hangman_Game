@@ -6,8 +6,12 @@ from unidecode import unidecode
 
 def hangman_art(path = './controller/arts.txt') -> list:
     with open(path, 'r', encoding='utf-8') as file:
-        art: str = file.read()
-    return art.split(';')
+        art: list = file.read().split(';')
+        
+    for i in range(len(art)):
+        art[i] = art[i].strip('\n')
+        
+    return art
 
 class Game:
     def __init__(self) -> None:

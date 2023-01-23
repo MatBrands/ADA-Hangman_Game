@@ -1,6 +1,6 @@
 import os
 from model.Words import *
-from view.Menu import *
+from model.Menu import *
 
 def start_menu(titulo: list, itens: list) -> int:
     menu = Menu()
