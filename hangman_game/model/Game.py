@@ -47,6 +47,14 @@ class Game:
             elif key in tentative:
                 input("Letra já foi utilizada !\n")
                 erro += 1
+            elif len(key) > 1:
+                if key == word:
+                    input("Acerto !\n")
+                    for i, item in enumerate(word):
+                        hidden_word[i] = item
+                else:
+                    input("Palavra incorreta !\n")
+                    erro += 1
             else:
                 input("Acerto !\n")
                 for i in range(len(word)):
