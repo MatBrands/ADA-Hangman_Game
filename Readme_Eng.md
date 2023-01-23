@@ -1,8 +1,6 @@
 # ADA-Hangman_Game
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-[English version]()
-
 - Instituição: Let's Code
 - Curso: Data4All
 - Disciplina: Lógica de Programação I

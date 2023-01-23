@@ -33,8 +33,7 @@ class Game:
                 print(item, end=' ')
             print()
             
-            key = input('Digite uma letra ou a palavra: ')
-            key = unidecode(key)
+            key = unidecode(input('Digite uma letra ou a palavra: '))
             if key not in word:
                 if len(key) == 1:
                     input("Letra incorreta !\n")
