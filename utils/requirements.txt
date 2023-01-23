@@ -2,4 +2,4 @@ python
 pip
 termcolor
 pynput
-unicode
+unidecode
