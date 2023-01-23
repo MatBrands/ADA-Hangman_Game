@@ -1,13 +1,13 @@
 # ADA-Hangman_Game
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-[English version]()
+[English Version](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/Readme_Eng.md)
 
 - Instituição: Let's Code
 - Curso: Data4All
 - Disciplina: Lógica de Programação I
 - Professores: Henrique Assis Cordeiro & Wenderson Alexandre de Sousa Silva
-- Alunos: Matheus Miranda Brandão.
+- Aluno: Matheus Miranda Brandão.
 
 Este projeto tem como objetivo a conclusão do módulo I do curso Data4All. Ela consiste na implementação do Jogo da Forca.
 
@@ -69,7 +69,7 @@ conda deactivate
 ```
 
 ### Requirements
-Pode-se utilizar o arquivo requiremets.txt para criar o ambiente virtual.
+Pode-se utilizar o arquivo requirements.txt para criar o ambiente virtual.
 
 - Navegar até a pasta de destino
 ```sh

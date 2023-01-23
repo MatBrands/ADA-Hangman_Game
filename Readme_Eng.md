@@ -1,37 +1,39 @@
 # ADA-Hangman_Game
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-- Instituição: Let's Code
-- Curso: Data4All
-- Disciplina: Lógica de Programação I
-- Professores: Henrique Assis Cordeiro & Wenderson Alexandre de Sousa Silva
-- Alunos: Matheus Miranda Brandão.
+[Portuguese Version](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/Readme.md)
 
-Este projeto tem como objetivo a conclusão do módulo I do curso Data4All. Ela consiste na implementação do Jogo da Forca.
+- Institution: Let's Code
+- Course: Data4All
+- Discipline: Programming Logic I
+- Teachers: Henrique Assis Cordeiro & Wenderson Alexandre de Sousa Silva
+- Student: Matheus Miranda Brandão.
 
-A especificação completa do projeto pode ser encontrada em: [Projeto Extra](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/utils/Projeto%20Extra.ipynb)
+This project has the objective the conclusion of the module I from the course Data4All. It consists in the implementation of the Hangman Game.
 
-## Conteúdo
+The complete specification from this project can be found in: [Projeto Extra](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/utils/Projeto%20Extra.ipynb)
 
-- Integrantes
-- Recomendações
-- Tecnologias
-- Instalação
-- Organização do projeto
+## Contents
 
-## Integrantes
-Projeto desenvolvido pelo Dev:
+- Members
+- Recomendations
+- Tecnologies
+- Instalation
+- Organization of the project
+
+## Members
+Project developed by the Dev:
 
 - [Matheus Miranda Brandão](https://github.com/MatBrands)
 
-## Recomendações
-- Ao desenvolver uma nova funcionalidade o dev deverá solicitar o Pull Request comentando o que foi feito.
-- Em relação aos commits será utilizado um padrão
-    - Commits de novas features. Ex: git commit -m "New: Readme"
-    - Commits de updates. Ex: git commit -m "Updated: Readme"
-    - Commits de remoção. Ex: git commit -m "Removed: Readme"
+## Recomendations
+- When developing a new feature, the dev must request the Pull Request commenting on what was done.
+- Regarding commits, a pattern will be used
+    - Commits from new features. Ex: git commit -m "New: Readme"
+    - Commits from updates. Ex: git commit -m "Updated: Readme"
+    - Commits from remoção. Ex: git commit -m "Removed: Readme"
 
-## Tecnologias
+## Tecnologies
 
 - python=3.9.15
 - os
@@ -41,61 +43,61 @@ Projeto desenvolvido pelo Dev:
 - unidecode
 
 
-## Instalação
+## Instalation
 
 ### Conda
-No desenvolvimento foi utilizado o gerenciador de pacotes e ambientes [Conda](https://conda.io/). Portanto para prosseguir necessita-se de sua [instalação](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
+In development, the package and environment manager [Conda](https://conda.io/) was used. So to proceed you need your [installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-- Navegar até a pasta de destino
+- Navigate to destination folder
 ```sh
 cd utils
 ```
 
-- Instalar dependências
+- Install the dependencies
 ```sh
 conda env create environment.yml
 ```
 
-- Ativar
+- activate
 ```sh
 conda activate hangman_game_venv
 ```
 
-- Desativar
+- Deactivate
 ```sh
 conda deactivate
 ```
 
 ### Requirements
-Pode-se utilizar o arquivo requiremets.txt para criar o ambiente virtual.
+Can be used the file requirements.txt to create a virtual environment.
 
-- Navegar até a pasta de destino
+- Navigate to destination folder
 ```sh
 cd utils
 ```
 
-- Criar ambiente virtual
+- Create the virtual enviroment
 ```sh
 python -m venv hangman_game_venv
 ```
 
-- Ativar
+- Activate
 ```sh
 source ./hangman_game_venv/bin/activate
 ```
 
-- Instalar dependências
+- Install the dependencies
 ```sh
 pip install -r requirements.txt
 ```
 
-- Desativar
+- Deactivate
 ```sh
 deactivate
 ```
 
 
-## Organização do projeto
+## Organization of the project
 ```sh
 ├── ADA-Hangman_Game
 │   ├── hangman_game
