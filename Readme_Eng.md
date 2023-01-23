@@ -11,7 +11,7 @@
 
 This project has the objective the conclusion of the module I from the course Data4All. It consists in the implementation of the Hangman Game.
 
-The complete specification from this project can be found in: [Projeto Extra](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/utils/Projeto%20Extra.ipynb)
+The complete specification from this project can be found in: [Projeto Extra](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/utils/Projeto%20Extra.md)
 
 ## Contents
 

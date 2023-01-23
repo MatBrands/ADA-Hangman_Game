@@ -11,7 +11,7 @@
 
 Este projeto tem como objetivo a conclusão do módulo I do curso Data4All. Ela consiste na implementação do Jogo da Forca.
 
-A especificação completa do projeto pode ser encontrada em: [Projeto Extra](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/utils/Projeto%20Extra.ipynb)
+A especificação completa do projeto pode ser encontrada em: [Projeto Extra](https://github.com/MatBrands/ADA-Hangman_Game/blob/master/utils/Projeto%20Extra.md)
 
 ## Conteúdo
 
