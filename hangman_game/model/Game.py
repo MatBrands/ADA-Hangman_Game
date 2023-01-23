@@ -69,6 +69,6 @@ class Game:
             print(f"Parabéns !\nVocê acertou a palavra: {word} com {erro} tentativa(s) errada(s)")
             return True
         else:
-            print(self.art[7])
+            print(self.art[6])
             print(f"Não foi dessa vez, a palavra era: {word}")
             return False
