@@ -22,13 +22,12 @@ class Game:
         
     def hangman(self) -> bool:
         word = self.word_class.random_word()
-        erro = 0
         
         hidden_word = ['_']*len(word)
-        
         for i, character in enumerate(word):
             if character in [' ', '-']: hidden_word[i] = character
         
+        erro = 0
         while True:
             os.system('clear')
             tentative = ''.join(hidden_word)
@@ -61,7 +60,7 @@ class Game:
                         if word[i] == item:
                             hidden_word[i] = item
             
-            if erro == 7 or ''.join(hidden_word) == word:
+            if erro == 6 or ''.join(hidden_word) == word:
                 break
             
         os.system("clear")
@@ -70,5 +69,6 @@ class Game:
             print(f"Parabéns !\nVocê acertou a palavra: {word} com {erro} tentativa(s) errada(s)")
             return True
         else:
+            print(self.art[7])
             print(f"Não foi dessa vez, a palavra era: {word}")
             return False
