@@ -60,7 +60,7 @@ class Game:
         os.system("clear")
         
         if word == ''.join(hidden_word):
-            print(f"Parabéns !\nVocê acertou a palavra: {word} com {erro} tentativa(s)")
+            print(f"Parabéns !\nVocê acertou a palavra: {word} com {erro} tentativa(s) errada(s)")
             return True
         else:
             print(f"Não foi dessa vez, a palavra era: {word}")
