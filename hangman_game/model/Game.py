@@ -24,10 +24,10 @@ class Game:
         word = self.word_class.random_word()
         erro = 0
         
-        hidden_word = []
-        for character in word:
-            if character in [' ', '-']: hidden_word.append(character)
-            else: hidden_word.append('_')
+        hidden_word = ['_']*len(word)
+        
+        for i, character in enumerate(word):
+            if character in [' ', '-']: hidden_word[i] = character
         
         while True:
             os.system('clear')
@@ -35,9 +35,8 @@ class Game:
             print(self.art[erro])
             for item in tentative:
                 print(item, end=' ')
-            print()
             
-            key = unidecode(input('Digite uma letra ou a palavra: '))
+            key = unidecode(input('\nDigite uma letra ou a palavra: '))
             if key not in word:
                 if len(key) == 1:
                     input("Letra incorreta !\n")
