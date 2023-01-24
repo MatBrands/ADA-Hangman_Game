@@ -6,8 +6,8 @@ Projeto: Hangman (Jogo da forca)
 Data de entrega: 27/01/2023
 
 Emails para enviar o projeto:
-- henriqueassiscordeiro@hotmail.com
-- wenale@gmail.com
+- henrique*************@hotmail.com
+- w*****@gmail.com
 
 ## Objetivos
 - Trabalhar com estrutura condicional (if, elif, else)
